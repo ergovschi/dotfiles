@@ -13,22 +13,18 @@ Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'tpope/vim-git'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
-"Plugin 'scrooloose/syntastic'
 
 Plugin 'elzr/vim-json'
 Plugin 'pangloss/vim-javascript'
-Plugin 'maksimr/vim-jsbeautify'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'ervandew/supertab'
 Plugin 'Lokaltog/vim-easymotion'
 
 Plugin 'Raimondi/delimitMate'
 Plugin 'leafgarland/typescript-vim'
-Plugin 'derekwyatt/vim-scala'
-Plugin 'tfnico/vim-gradle'
+Plugin 'ElmCast/elm-vim'
 
 "Styling plugins
 Plugin 'nathanaelkane/vim-indent-guides'
@@ -65,7 +61,10 @@ highlight GitGutterChange ctermfg=yellow
 highlight GitGutterDelete ctermfg=red
 highlight GitGutterChangeDelete ctermfg=yellow
 
-map ` :NERDTreeToggle<CR>
-
+map <C-n> :NERDTreeToggle<CR>
 " Quick ESC
 imap jj <ESC>
+
+let g:ycm_semantic_triggers = {
+     \ 'elm' : ['.'],
+     \}
