@@ -12,6 +12,9 @@
     ~/.zprofile: prezto/runcoms/zprofile
     ~/.zshenv: prezto/runcoms/zshenv
     ~/.zshrc: prezto/runcoms/zshrc
+    ~/.gitrc: prezto/runcoms/gitrc
+    #tmux
+    ~/.tmux.conf: tmux/tmux.conf
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
