@@ -9,17 +9,15 @@ antigen bundle pip
 antigen bundle brew
 antigen bundle colored-man-pages
 antigen bundle command-not-found
-antigen bundle osx 
 antigen bundle golang
 antigen bundle gradle
 antigen bundle history
-antigen bundle man
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
-antigen theme robbyrussell
+antigen theme sorin
 
 # Tell Antigen that you're done.
 antigen apply

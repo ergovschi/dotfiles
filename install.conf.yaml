@@ -4,11 +4,12 @@
     ~/.dotfiles: ''
     ~/.vim: vim/vim
     ~/.vimrc: vim/vimrc
+
     #tmux
     ~/.tmux.conf: tmux/tmux.conf
+
     #zsh
     ~/.zshrc: zsh/zshrc
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
-    - [brew install getantibody/tap/antibody, Installing antibody]
