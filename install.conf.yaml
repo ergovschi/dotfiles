@@ -4,15 +4,6 @@
     ~/.dotfiles: ''
     ~/.vim: vim/vim
     ~/.vimrc: vim/vimrc
-    #zsh/prezto setup
-    ~/.zprezto: prezto
-    ~/.zlogin: prezto/runcoms/zlogin
-    ~/.zlogout: prezto/runcoms/zlogout
-    ~/.zpreztorc: prezto/runcoms/zpreztorc
-    ~/.zprofile: prezto/runcoms/zprofile
-    ~/.zshenv: prezto/runcoms/zshenv
-    ~/.zshrc: prezto/runcoms/zshrc
-    ~/.gitrc: prezto/runcoms/gitrc
     #tmux
     ~/.tmux.conf: tmux/tmux.conf
 

@@ -26,6 +26,8 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'ElmCast/elm-vim'
 
+Plugin 'pantsbuild/vim-pants'
+
 "Styling plugins
 Plugin 'nathanaelkane/vim-indent-guides'
 

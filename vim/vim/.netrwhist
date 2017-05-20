@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/sergiu/Web/music-wiki/server/bin'
-let g:netrw_dirhist_2='/Users/sergiu/Web/music-wiki/server'
-let g:netrw_dirhist_3='/Users/sergiu/Work/dotfiles/tmux'
-let g:netrw_dirhist_4='/Users/sergiu/SkyDrive/Oxford/DecentralizedMarket/DecentralizedMarket'
-let g:netrw_dirhist_5='/Users/sergiu/.dotfiles'
-let g:netrw_dirhist_6='/Users/sergiu/Work/dotfiles/dotbot'
