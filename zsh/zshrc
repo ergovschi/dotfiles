@@ -12,6 +12,7 @@ antigen bundle command-not-found
 antigen bundle golang
 antigen bundle gradle
 antigen bundle history
+antigen bundle common-aliases
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
@@ -22,3 +23,13 @@ antigen theme sorin
 # Tell Antigen that you're done.
 antigen apply
 
+alias ..='cd ..'
+alias ...='cd ../..'
+
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/"
+
+# DOCKER
+drma() { docker rm $(docker ps -a -q); }
+dssh() { docker exec -it $(docker ps -aqf "name=$1") bash; }
+
+export GOPATH=$HOME/Work/go

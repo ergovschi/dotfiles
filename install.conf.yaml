@@ -5,9 +5,6 @@
     ~/.vim: vim/vim
     ~/.vimrc: vim/vimrc
 
-    #tmux
-    ~/.tmux.conf: tmux/tmux.conf
-
     #zsh
     ~/.zshrc: zsh/zshrc
 
